@@ -1,0 +1,57 @@
+
+doctype html 
+html 
+    head 
+     title AnyBodyCanDance 
+     style 
+       include ../static/style.css 
+    body 
+     nav#navbar
+        ul 
+            div#logo
+                img(src="static/img/logof.webp")
+                | ABCD 
+            li #[a(href="/") Home ]
+            li #[a(href="/") About]
+            li #[a(href="/") services ]
+            li #[a(href="/") class info]
+            li #[a(href="/") Contact Us ]
+
+     section#introSection
+        div  Welcome to our Dance academy 
+        div.small Eat Sleep Dance Repeat 
+     section#missionSection
+        h3 Our Mision
+         div.card
+          h3  Dance Perfection 
+          div.card-box
+               div.card-image
+                  img(src="static/img/shaddow.png")
+               div.card-content
+                  p This is the best dance academy all over the world
+         div.card
+          h3 Dance style 
+            div.card-box
+               div.card-image
+                  img(src="static/img/men.png")
+               div.card-content
+                  p This is the best dance academy all over the world
+         div.card
+          h3 Expert Teaching 
+            div.card-box
+               div.card-image
+                  img(src="static/img/shaddow.png")
+               div.card-content
+                  p This is the best dance academy all over the world
+     section#sponsorsSection
+        h2 Our sponsors 
+         div#sponsors
+            img(src="static/logo/apple-logo.png", alt="Sponsor Image" class="spImage")     
+            img(src="static/logo/hp.png", alt="Sponsor Image" class="spImage")     
+            img(src="static/logo/microsoft.png", alt="Sponsor Image" class="spImage")     
+            img(src="static/logo/skype-seeklogo.png", alt="Sponsor Image" class="spImage")     
+     footer#footer 
+        | Copyright @ 2019 AnybodyCanDance.com | All Rights reserved 
+    
+     script 
+       include ../static/index.js 
